@@ -1,5 +1,6 @@
 *{
     direction: rtl !important;
+    font-family: Tanha !important;
 }
 .layout-fixed .main-sidebar {
     right: 0;
@@ -61,4 +62,9 @@
     .sidebar-open .main-sidebar, .sidebar-open .main-sidebar::before {
         margin-right: 0;
     }
+}
+
+/* Danishyar added with Vazir CDN font*/
+body{
+    font-family: Vazir !important;
 }
